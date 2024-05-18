@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+
+    <body>
+        <div id="overlay">
+            <header>
+                <h1>Current Affairs Demo Quiz &#128221</h1>
+            </header>
+
+            <main class="quiz">
+                <h3 id="question">Question</h3>
+
+                <div id="options">
+                    <button class="option-btn">Option 1</button>
+                    <button class="option-btn">Option 2</button>
+                    <button class="option-btn">Option 3</button>
+                    <button class="option-btn">Option 4</button>
+                </div>
+
+                <div id="tracker"></div>
+
+                <div id="container">
+                    <div id="result">
+                        <p>You scored</p>
+                        <p id="score">8/10</p>
+                        <p id="remark"></p>
+                    </div>
+                </div>
+                
+                <button id="next">Next</button>
+            </main>
+        </div>
+
+        <script src="quiz.js"></script>
+    </body>
+</html>
